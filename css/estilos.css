@@ -1,4 +1,4 @@
-main {
-  margin-top: 40px;
-  text-align: center;
+main .main-container-logo img {
+  width: 200px;
+  height: 183px;
 }
