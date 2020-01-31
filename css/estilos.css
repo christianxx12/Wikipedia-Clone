@@ -5,6 +5,7 @@ body {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 header {
@@ -24,4 +25,78 @@ header h1 {
 header p {
   height: 20px;
   margin: 0;
+}
+
+main .main-container {
+  width: 546px;
+  height: 325px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+main .main-container .logo {
+  width: 200px;
+  height: 183px;
+  position: absolute;
+  top: 17%;
+  left: 31%;
+}
+
+.language {
+  position: absolute;
+}
+ .español {
+  top: 0;
+  right: 60%;
+}
+
+.ingles {
+  top: 0;
+  left: 60%;
+}
+
+.japones {
+  top: 20%;
+  right: 70%;
+}
+
+.aleman {
+  top: 20%;
+  left: 70%;
+}
+
+.ruso {
+  top: 40%;
+  right: 72%;
+}
+
+.frances {
+  top: 40%;
+  left: 72%;
+}
+
+.italiano {
+  top: 60%;
+  right: 70%;
+}
+
+.chino {
+  top: 60%;
+  left: 70%;
+}
+
+.portugues {
+  top: 80%;
+  right: 60%;
+}
+
+.polaco {
+  top: 80%;
+  left: 60%;
+}
+
+main .main-container .language strong {
+  display: block;
 }
