@@ -97,6 +97,11 @@ main .main-container .logo {
   left: 60%;
 }
 
-main .main-container .language strong {
+main .main-container .language a strong {
   display: block;
+  color: #3366cc;
+}
+
+main .main-container .language a small {
+  color: #54595d;
 }
