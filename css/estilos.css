@@ -154,3 +154,45 @@ main .main-input .search-button {
   color: white;
   font-size: 20px;
 }
+
+main .main-button {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main .main-button hr {
+  position: relative;
+  width: 500px;
+  top: 26px;
+  z-index: 0;
+  border: none;
+  border-bottom: 1px solid #c8ccd1;
+}
+
+main .main-button button {
+  position: absolute;
+  z-index: 1;
+  margin-left: -90px;
+  width: 211px;
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  border-radius: 2px;
+  color: #36c;
+  font-size: 13px;
+}
+
+main .main-hr {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #c8ccd1;
+  margin-top: 26px ;
+}
+
+main .main-other {
+  width: 100%;
+  height: 430px;
+  border: 1px solid red;
+}
