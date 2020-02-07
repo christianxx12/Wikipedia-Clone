@@ -194,5 +194,34 @@ main .main-hr {
 main .main-other {
   width: 100%;
   height: 430px;
+  margin: 0 auto;
   border: 1px solid red;
+}
+
+main .main-other .container-description{
+  width: 268px;
+  height: 95px;
+  margin: 27px 20px 20px 12px;
+  border: 1px solid black;
+  position: relative;
+}
+
+main .main-other .container-description .fundation-image{
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  background-image: url('/images/fundation.png');
+}
+
+main .main-other .container-description .description {
+  width: 188px;
+  height: 95px;
+  position: absolute;
+  top: 6px;
+  left: 70px;
+  text-align: left;
+  font-size: 13px;
+  color: #54595d;
 }
