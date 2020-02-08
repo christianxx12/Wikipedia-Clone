@@ -195,15 +195,18 @@ main .main-other {
   width: 100%;
   height: 430px;
   margin: 0 auto;
-  border: 1px solid red;
+  position: relative;
+  /* border: 1px solid red; */
 }
 
 main .main-other .container-description{
   width: 268px;
   height: 95px;
-  margin: 27px 20px 20px 12px;
-  border: 1px solid black;
-  position: relative;
+  /* margin: 27px 20px 20px 12px; */
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 20px;
+  left: 50px;
 }
 
 main .main-other .container-description .fundation-image{
@@ -212,16 +215,531 @@ main .main-other .container-description .fundation-image{
   position: absolute;
   top: 0;
   left: 7px;
-  background-image: url('/images/fundation.png');
 }
 
 main .main-other .container-description .description {
   width: 188px;
-  height: 95px;
+  height: 93px;
   position: absolute;
-  top: 6px;
-  left: 70px;
+  top: 1px;
+  left: 68px;
   text-align: left;
   font-size: 13px;
+  color: #54595d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .container-downloads {
+  /* border: 1px solid black; */
+  width: 268px;
+  height: 270px;
+  position: absolute;
+  color: #54595d;
+  top: 136px;
+  left: 50px;
+}
+
+main .container-downloads .wiki-image {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  border-radius: 5px;
+  box-shadow: -3px 2px 8px 2px #dbdddf;
+}
+
+main .container-downloads strong {
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  top: 9px;
+  left: 63px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .container-downloads p {
+  width: 190px;
+  height: 114px;
+  margin: 0;
+  font-size: 13px;
+  text-align: left;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .container-downloads .play {
+  width: 124px;
+  height: 38px;
+  border-radius: 5px;
+  position: absolute;
+  top: 177px;
+  left: 60px;
+  cursor: pointer;
+}
+
+main .container-downloads .appstore {
+  width: 110px;
+  height: 38px;
+  border-radius: 5px;
+  position: absolute;
+  top: 218px;
+  left: 60px;
+  cursor: pointer;
+}
+
+main .main-other .others {
+  /* width: inherit; */
+  height: 399px;
+  top: 12px;
+  left: 430px;
+  position: absolute;
+  /* border: 1px solid black; */
+}
+
+main .main-other .others .commons {
+  width: 280px;
+  height: 57px;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  /* border: 1px solid blue; */
+}
+
+main .main-other .others .commons img {
+  width: 50px;
+  height: 47px;
+  position: absolute;
+  left: 0px;
+}
+
+main .main-other .others .commons .commons-container {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  left: 3px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .commons .title {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .commons .description {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikiviajes {
+  width: 282px;
+  height: 59px;
+  position: absolute;
+  top: 10px;
+  left: 345px;
+  /* border: 1px solid yellow; */
+}
+
+main .main-other .others .wikiviajes img {
+  position: absolute;
+  top: 7px;
+  left: 0px;
+}
+
+main .main-other .others .wikiviajes-container {
+  display: inline-block;
+  position: relative;
+  top: 12px;
+  left: -30px;
+} 
+
+main .main-other .others .wikiviajes .title {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #3399e3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikiviajes .description {
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: #54595d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikicionario {
+  width: 280px;
+  height: 57px;
+  position: absolute;
+  top: 10px;
+  left: 632px;
+  /* border: 1px solid orange; */
+}
+
+main .main-other .others .wikicionario img {
+  position: absolute;
+  left: 0px;
+}
+
+main .main-other .others .wikicionario-container {
+  display: inline-block;
+  position: absolute;
+  left: 56px;
+  top: 6px;
+}
+
+main .main-other .others .wikicionario .title {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #3399e3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikicionario .description{
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: #54595d;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikilibros {
+  width: 280px;
+  height: 59px;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  /* border: 1px solid orangered; */
+}
+
+main .main-other .others .wikilibros img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+}
+
+main .main-other .others .wikilibros-container {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: -20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikilibros .title {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikilibros .description{
+  display: block;
+  text-align: left;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikinoticias {
+  width: 282px;
+  height: 59px;
+  position: absolute;
+  top: 100px;
+  left: 345px;
+  /* border: 1px solid orchid; */
+}
+
+main .main-other .others .wikinoticias img {
+  width: 66px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+}
+
+main .main-other .others .wikinoticias-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 10px;
+  left: -3px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikinoticias .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikinoticias .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikidata {
+  width: 280px;
+  height: 57px;
+  position: absolute;
+  top: 100px;
+  left: 632px;
+  /* border: 1px solid purple; */
+}
+
+main .main-other .others .wikidata img {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  left: 0px;
+}
+
+main .main-other .others .wikidata-container {
+
+  width: 144px;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 5px;
+  left: -17px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikidata .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikidata .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikiversidad {
+  width: 280px;
+  height: 59px;
+  position: absolute;
+  top: 190px;
+  left: 60px;
+  /* border: 1px solid saddlebrown; */
+}
+
+main .main-other .others .wikiversidad img {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+}
+
+main .main-other .others .wikiversidad-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 10px;
+  left: -10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikiversidad .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikiversidad .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikiquote {
+  width: 282px;
+  height: 59px;
+  position: absolute;
+  top: 190px;
+  left: 345px;
+  /* border: 1px solid red; */
+}
+
+main .main-other .others .wikiquote img {
+  position: absolute;
+  left: 0px;
+}
+
+main .main-other .others .wikiquote-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 10px;
+  left: -22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikiquote .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikiquote .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .mediawiki {
+  width: 280px;
+  height: 59px;
+  position: absolute;
+  display: inline-block;
+  top: 190px;
+  left: 632px;
+  /* border: 1px solid black; */
+}
+
+main .main-other .others .mediawiki img {
+  width: 56px;
+  position: absolute;
+  top: 6px;
+  left: 0px;
+}
+
+main .main-other .others .mediawiki-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 7px;
+  left: -6px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .mediawiki .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .mediawiki .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikisource {
+  width: 280px;
+  height: 59px;
+  position: absolute;
+  top: 280px;
+  left: 60px;
+  /* border: 1px solid black; */
+}
+
+main .main-other .others .wikisource img {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+}
+
+main .main-other .others .wikisource-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 11px;
+  left: -32px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikisource .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikisource .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .wikispecies {
+  width: 280px;
+  height: 59px;
+  position: absolute;
+  top: 280px;
+  left: 345px;
+  /* border: 1px solid black; */
+}
+
+main .main-other .others .wikispecies img {
+  position: absolute;
+  top: 6px;
+  left: -0px;
+}
+
+main .main-other .others .wikispecies-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 9px;
+  left: 1px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .wikispecies .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .wikispecies .description {
+  display: block;
+  font-size: 12px;
+  color: #54595d;
+}
+
+main .main-other .others .metawiki {
+  width: 280px;
+  height: 59px;
+  position: absolute;
+  top: 280px;
+  left: 632px;
+  /* border: 1px solid black; */
+}
+
+main .main-other .others .metawiki img {
+  position: absolute;
+  top: 6px;
+  left: 0px;
+}
+
+main .main-other .others .metawiki-container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: 7px;
+  left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main .main-other .others .metawiki .title {
+  display: block;
+  font-size: 14px;
+  color: #3399e3;
+}
+
+main .main-other .others .metawiki .description {
+  display: block;
+  font-size: 12px;
   color: #54595d;
 }
